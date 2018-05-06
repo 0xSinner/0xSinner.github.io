@@ -1,10 +1,61 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Sinner</title>
-</head>
-<body>
-  <h1>test</h1>
-</body>
-</html>
+	<head>
+		<style>
+			body{
+				background: black url("https://media.giphy.com/media/2rAKX1QNbLnux3z2pJ/giphy.gif") no-repeat fixed center; 
+				cursor: not-allowed;
+				background-size: auto;
+				background-repeat: no-repeat;
+				 text-align: center; 
+				font-family: Helvetica, Arial, sans-serif; 
+				font-weight: bold; 
+				font-style : italic;
+				}
+
+			.sup { 
+				color: #ffffff; 
+				background: red; 
+				padding: 7px 7px; 
+				text-decoration: none;
+				width : 300px;
+				margin : auto;
+				}
+		</style>
+		<title>Sinner</title>
+		<script type="text/javascript">
+window.oncontextmenu = function () {
+   return false;
+}
+document.onkeydown = function(e) {
+    if(e.keyCode == 123) {
+     return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+    return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+    return false;
+    }
+    if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+    return false;
+    }
+ 
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)){
+    return false;
+    }      
+ }
+ </script>
+	</head>
+	<body>
+	
+	<br>
+	<br>
+  <a href="https://twitter.com/0xSinner" class="sup" target="_blank">
+    Sinner
+  </a>
+		<audio autoplay loop>
+  <source src="song.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+	</body>
+</html>	
